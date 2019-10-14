@@ -4,7 +4,7 @@
   "description": "Desafio333 ",
   "main": "src/server.js",
   "scripts": {
-    "test": "npm run dev"
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "url-metadata": "^2.4.0"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
