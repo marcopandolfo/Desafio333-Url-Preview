@@ -1,7 +1,8 @@
 const validateUrl = require('../helpers/validateUrl');
+const getUrlData = require('../helpers/getUrlData');
 
 module.exports = {
-  index(req, res) {
+  async index(req, res) {
     // Define a url
     const { url } = req.body;
 
@@ -9,9 +10,11 @@ module.exports = {
     if (!validateUrl(url)) return res.status(400).json({ error: 'Url inválida!' });
 
     // Busca as informacoes daquela url
-
-
-
-    return res.status(200).send(url);
+    try {
+      const urlData = await getUrlData(url);
+      return res.status(200).send(urlData);
+    } catch (error) {
+      return res.status(400).json({ error: 'Url inválida!' });
+    }
   },
 };
