@@ -14,7 +14,7 @@ module.exports = {
       const urlData = await getUrlData(url);
       return res.status(200).send(urlData);
     } catch (error) {
-      return res.status(400).json({ error: 'Url inválida!' });
+      return res.status(400).json({ error: 'Url não acessivel!' });
     }
   },
 };
