@@ -22,9 +22,12 @@
   },
   "homepage": "https://github.com/marcopandolfo/Desafio333-Url-Preview#readme",
   "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
+    "extract-domain": "^2.2.1",
     "url-metadata": "^2.4.0"
   },
   "devDependencies": {
