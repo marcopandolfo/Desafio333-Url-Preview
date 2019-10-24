@@ -1,2 +1,51 @@
-# Desafio333-Url-Preview
-Desafio333 - Outubro 2019 - API URL Preview
+
+<h1 align="center"> Desafio333-Url-Preview</h1>
+
+<h3 align="center">
+  <img src="https://avatars1.githubusercontent.com/u/50280477?s=200&v=4" width="125"><br>
+    <a href="https://github.com/codigofalado/desafio333">Código Falado</a>
+    <br>
+    <br>
+</h3>
+
+# Sobre o projeto
+O Projeto faz parte de um <a href="">desafio</a> da comunidade <a href="https://github.com/codigofalado/desafio333">Código Falado</a> onde o projeto é criar uma API que, dada uma url, ela tem que retornar o máximo de informações possíveis sobre aquela url.
+
+# Sobre a API
+A API atualmente está hospedada na heroku e você pode testar o projeto usando a url `http://urlpreview.herokuapp.com/`
+
+Basta apenas fazer um POST nessa url passando como body param a `url` que você deseja extrair os dados
+
+##### Exemplo
+```
+{
+  "url": "https://github.com/codigofalado/"
+}
+```
+
+E a partir disso, a api irá retonar um JSON contendo as informções daquela URL.
+
+##### Exemplo
+```
+{
+  "url": "https://github.com/codigofalado",
+  "source": "github.com",
+  "title": "Código Falado",
+  "type": "profile",
+  "description": "A comunidade de Live Coding onde aprendemos juntos! - Código Falado",
+  "domain": "github.com",
+  "thumbnail": "https://avatars0.githubusercontent.com/u/50280477?s=280&v=4",
+  "sitename": "GitHub"
+}
+```
+
+# Sobre o frontend
+O projeto conta com uma interface web feita em React consumindo a API do projeto, que possui 2 modos de visualização (raw json e um modo mais visivel das informações)
+
+Você pode testar agora mesmo em
+
+ https://peaceful-fermat-726e29.netlify.com/
+
+![image](https://user-images.githubusercontent.com/40467826/67532594-328e5d80-f69d-11e9-931e-4ef2cc47b8d6.png)
+
+![image](https://user-images.githubusercontent.com/40467826/67532630-5487e000-f69d-11e9-9d77-acafbed73dfe.png)

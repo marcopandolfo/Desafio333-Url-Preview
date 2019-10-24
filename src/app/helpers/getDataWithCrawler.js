@@ -1,5 +1,4 @@
 /* eslint-disable no-param-reassign */
-/*  */
 const cheerio = require('cheerio');
 const axios = require('axios');
 
