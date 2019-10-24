@@ -44,7 +44,7 @@ O projeto conta com uma interface web feita em React consumindo a API do projeto
 
 Você pode testar agora mesmo em
 
- https://peaceful-fermat-726e29.netlify.com/
+https://url-preview.netlify.com/
 
 ![image](https://user-images.githubusercontent.com/40467826/67532594-328e5d80-f69d-11e9-931e-4ef2cc47b8d6.png)
 
