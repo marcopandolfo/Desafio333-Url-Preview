@@ -30,7 +30,7 @@ class Home extends Component {
   onClick = event => {
     if (!this.state.response)
       return this.setState({
-        error: "Preencha o dominio para continuar!"
+        error: "Preencha a url para continuar!"
       });
     this.setState({ embed: !this.state.embed, error: "" });
   };
@@ -61,7 +61,7 @@ class Home extends Component {
           <Form onSubmit={this.handleDomain}>
             <input
               type="Domínio"
-              placeholder="Domínio"
+              placeholder="URL"
               onChange={e => this.setState({ domain: e.target.value })}
               required
             />
