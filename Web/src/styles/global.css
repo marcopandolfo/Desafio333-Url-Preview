@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap");
+
+:root {
+  --color-green: #01d28e;
+  --color-red: #ff6768;
+  --color-white: #dbdbdb;
+  --color-background: #111727;
+  --color-background-embed: #282a36;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+body,
+html {
+  font-family: "Oxygen", sans-serif;
+  background: var(--color-background);
+  /* font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif; */
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  height: 100%;
+  width: 100%;
+}
+
+pre {
+  border-radius: 5px;
+  min-width: 100%;
+  max-width: 50px;
+}
