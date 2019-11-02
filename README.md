@@ -49,3 +49,14 @@ https://url-preview.netlify.com/
 ![image](https://user-images.githubusercontent.com/40467826/67532594-328e5d80-f69d-11e9-931e-4ef2cc47b8d6.png)
 
 ![image](https://user-images.githubusercontent.com/40467826/67532630-5487e000-f69d-11e9-9d77-acafbed73dfe.png)
+
+<div align="center">
+  <img src="https://cdn.discordapp.com/attachments/553858177331101696/611775488825753610/logo.png" alt="He4rt Developers" />
+
+  Conheça a comunidade He4rt Developers, que tem como objetivo disponibilizar a troca de conhecimentos entre desenvolvedores,   majoritariamente brasileiros, para que possam crescer juntos como profissionais na área.
+  <br>
+  <div align="center">
+      <a href="https://discord.gg/J3saJqq" target="_blank">
+      <img src="https://discordapp.com/api/guilds/452926217558163456/embed.png" alt="Discord server"/></a>
+  </div>
+</div>
